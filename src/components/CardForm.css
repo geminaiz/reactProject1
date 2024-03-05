@@ -1,0 +1,37 @@
+.card-form {
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 10px; /* Arrotonda i bordi del form */
+  padding: 30px; /* Aggiunge spazio interno al form */
+  background-color: #161515;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+
+.form-group {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #f5f4f4; /* Aumentato lo spessore del bordo per renderlo più evidente */
+  border-radius: 5px;
+  box-sizing: border-box; /* Assicura che il padding sia incluso nella larghezza */
+}
+
+.form-group:focus {
+  outline: none; /* Rimuove l'outline quando l'input è in focus */
+  border-color: #007bff; /* Cambia il colore del bordo quando l'input è in focus */
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3; /* Cambia il colore del pulsante al passaggio del mouse */
+}

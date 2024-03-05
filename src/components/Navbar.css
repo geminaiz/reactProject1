@@ -1,0 +1,36 @@
+/* Stile base per la lista non ordinata */
+.ul {
+  list-style-type: none; /* Rimuove i punti elenco predefiniti */
+  padding: 0; /* Rimuove il padding predefinito */
+  margin: 0; /* Rimuove il margine predefinito */
+}
+
+/* Stili per gli elementi della lista */
+.li {
+  padding: 8px 16px; /* Padding interno per spaziatura */
+  background-color: #131111; /* Colore di sfondo */
+}
+
+/* Stile per l'ultimo elemento della lista per rimuovere la sottolineatura */
+li:last-child {
+  border-bottom: none; /* Rimuove la sottolineatura dall'ultimo elemento */
+}
+
+/* Stili quando il mouse passa sopra un elemento */
+li:hover {
+  background-color: #020202; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+/* Stile per il primo elemento della lista */
+li:first-child {
+  border-top-left-radius: 8px; /* Applica un bordo arrotondato in alto a sinistra */
+  border-top-right-radius: 8px; /* Applica un bordo arrotondato in alto a destra */
+}
+
+/* Stile per l'ultimo elemento della lista */
+li:last-child {
+  border-bottom-left-radius: 8px; /* Applica un bordo arrotondato in basso a sinistra */
+  border-bottom-right-radius: 8px; /* Applica un bordo arrotondato in basso a destra */
+}
+
+  

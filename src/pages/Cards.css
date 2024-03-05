@@ -1,0 +1,6 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 colonne con la stessa larghezza */
+    gap: 10px; /* Spazio tra le colonne */
+    padding-top: 5px; /* Padding sopra la griglia */
+  }
